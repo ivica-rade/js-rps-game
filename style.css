@@ -1,0 +1,26 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #65e2b8;
+    height: 100%;
+    padding: 5px;
+    margin: 0px;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
