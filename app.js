@@ -38,23 +38,24 @@ function getWinner(computerChoice, playerChoice){
     }
     else if (computerChoice === "rock"){
         if(playerChoice === "scissors"){
-            document.getElementById("result").textContent = "Computer wins!";
+            document.getElementById("result").textContent = "Computer chose rock, computer wins!";
         } else {
             document.getElementById("result").textContent = "You win!";
         }
     }
     else if(computerChoice === "paper"){
         if(playerChoice === "rock"){
-            document.getElementById("result").textContent = "Computer wins!";
+            document.getElementById("result").textContent = "Computer chose paper, computer wins!";
         } else {
             document.getElementById("result").textContent = "You win!";
         }
     }
     else if(computerChoice === "scissors"){
         if(playerChoice === "paper"){
-            document.getElementById("result").textContent = "Computer wins!"
+            document.getElementById("result").textContent = "Computer chose scissors, computer wins!"
         } else {
             document.getElementById("result").textContent = "You win!"
         }
     }
 }
+

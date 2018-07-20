@@ -1,6 +1,7 @@
 html, body {
+    font-family: 'VT323', monospace;
     box-sizing: border-box;
-    background-color: #65e2b8;
+    background-image: url(background.jpg);
     height: 100%;
     padding: 5px;
     margin: 0px;
@@ -16,11 +17,31 @@ html, body {
 img {
     height: 100px;
     width: 100px;
-    margin-left: 50px;
+    margin-left: 80px;
+    padding-bottom: 400px;
+}
+
+img:hover {
+    transition: 400ms;
+    width: 150px;
+    height: 150px;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
+    color: #37593b;
+    letter-spacing: 5px;
+    line-height: 3px;
+}
+
+p {
+    color: #37593b;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 200px;
+
 }

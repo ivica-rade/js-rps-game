@@ -1,3 +1,5 @@
 A simple rock, paper, scissors game made in JavaScript
 
-Note: This is basically a boilerplate for the project, the logic isn't there yet and the styles were thrown together in 30 seconds
+Disgusting desing, but that's not the point. I may re-do it later on, wanted to practice logic. 
+
+todo: add a "Play again" function
