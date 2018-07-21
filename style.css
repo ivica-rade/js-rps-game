@@ -25,6 +25,7 @@ img:hover {
     transition: 400ms;
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
 
 h1 {
@@ -36,12 +37,23 @@ h1 {
     line-height: 3px;
 }
 
-p {
+#result {
     color: #37593b;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 2.5em;
     text-align: center;
-    padding-top: 200px;
-
+    padding-top: 150px;
 }
+
+#restart {
+    display: none;
+    cursor: pointer;
+    color: #37593b;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 50px;
+}
+
